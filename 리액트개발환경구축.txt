@@ -1,0 +1,32 @@
+
+개발환경 
+1) node.js - JS 독립 실행기 [웹브라우저 없이도 독립적으로 실행하기 위함]
+	
+2) npm - node.js를 깔면 자동적으로 같이 깔려진다 [JS라이브러리를 설치 및 자유롭게쓰기위함]
+
+3) barbel라이브러리 - jsx문법 (HTML,JS합친문법)
+
+4) webpack - 프로젝트압축기 
+   : 자바스크립트 기반의 모듈[1] 번들러이다. 
+     웹 어플리케이션 개발에 필요한 다양한 요소
+     (HTML, CSS, Javascript, Images, Font, 친구 등...)들을 하나의 파일로
+     (혹은 여러 개의 파일로) 병합 및 압축을 해주는 역할을 한다. 
+     주요한 요소로는 Entry, Output, Loaders, Plugins, Mode, Browser Compatibility가 있다 
+
+5) create-react-app 라이브러리 
+   : webpack 이 어렵다보니까는 그에 대책되는 라이브러리 
+
+
+
+
+설치방법 
+1. node.js 홈페이지에서 다운받는다 
+2. Vs_Code 환경설정->셋팅에서
+ -  "emmet.includeLanguages":{
+      "javascript":"javascriptreact"
+     }
+3. 3-1 reactjs code sni -> 다운 활성화 설치 
+   3-2 Auto lmport -> 다운 활성화 설치 
+   3-3 vs_code 닫기 
+   3-4 Vs-code 우클릭 -> 속성 -> 호환성 -> 관리자권한으로 프로그램실행 체크 
+
